@@ -1,0 +1,217 @@
+@charset "utf-8";
+/* CSS Document */
+/*==============================*/
+/*=====   Responsive css  ======*/
+/*==============================*/
+@media screen and (max-width:1318px){
+.conhead{margin:0}
+.locatn {
+  width:40.5%;
+  padding-right:0;
+}
+.conbody{padding:41px 15px 100px}
+.conbody .lftside{padding-bottom:20px}
+}
+@media screen and (max-width:1279px){
+
+.rsntjobs{
+	width:47%;
+	padding-bottom: 80px
+}
+.conbody .signup.divright{
+	float:none;
+}
+.srtinfo.divright{float:none}
+.social {
+  border: 1px solid #eeeeee;
+  margin-top: 126px;
+  float:left;
+}
+}
+@media screen and (max-width:1199px){
+.proftr .control-label {
+  font-size:16px;
+}
+.empinfocon{padding-right:15px}
+.srtinfo{padding:30px 15px;}
+.prophoto{margin:0 -15px}
+.prophoto .photo,
+.prophoto .emname{float:left}
+.prophoto .emname{
+	padding-left:30px;
+}
+}
+@media screen and (max-width:991px){
+	.formPdng .col-md-6:first-child input{ margin-bottom:15px}
+	.fRgtbtn{float:none}
+.packeg{
+	padding:0 0 20px;
+}
+.proftr h4 {
+  padding: 15px 0;
+}
+.inputIn {
+  padding:0;
+}
+.reﬁne{margin-bottom:20px}
+}
+@media screen and (max-width:980px){
+.copyrth p{padding:0 15px}
+.conbody {padding:41px 15px 40px}
+.profesional .emplotype .checkbox-inline{margin-bottom:5px;}
+.rsntjobs{
+	width:auto;
+	float:none;
+}
+.settbdy .fieldset-border {
+  padding: 35px 15px 20px;
+}
+.settnav .list-group-item {
+  font-size: 13px;
+}
+}
+@media screen and (max-width:767px){
+.bnrDtl span {
+  padding:0;
+}
+.bnrDtl .row{ padding-bottom:15px;}
+.proRgt{
+	float:none;
+}
+/*}
+@media screen and (max-width:768px){*/
+.prynav{display:none}
+.resnav{display:block}
+.lftside{padding-bottom:20px}
+.jobdtls li label,
+.contdtls .panel-body .contlist label{
+  width:auto;
+  margin:0;
+  display:block;
+}
+.jobdtls li{padding-bottom:10px}
+.contlist .list-item{padding-bottom:10px}
+.jobhits p.divleft,
+.jobhits a.freepos{float:none}
+.cogniz{margin-top:20px}
+.cogniz .brnd-img {margin-left:0}
+.areacde{margin-bottom:15px}
+.sortby{float:none}
+.applybar .divright{text-align:left; float:none}
+.keyword {width: 53.4%}
+.langknwn {padding-bottom: 15px}
+.langknwn .col-sm-6{margin-bottom:15px}.linktabs .divleft,
+.linktabs .divright{float:none}
+.linktabs ul li{
+	width:100%;
+	margin-bottom:5px;
+	float:none;
+}
+.button{width:100%;}
+.space{padding:0}
+
+.setthead ul{margin:0; float:none}
+.setthead li{
+	width:100%;
+	margin:0;
+	float:none;
+	margin-bottom:-1px;
+}
+.padbttm{padding-bottom:15px}
+.keyword,.locatn,srcbtnbox{
+	width:auto;
+	float:none;
+}
+.locatn{padding-left:0}
+.edudtls .strong{padding-left:0}
+.srtbycont{padding:0}
+.langknwn .rewrsp {padding-top: 0}
+.subftr .divright{float:none;}
+.subftr .button{margin-bottom:15px}
+.formsec {padding-bottom: 30px}
+.inline-select .select, .inline-select .to {
+	width: auto;
+	margin: 0 0 15px;
+	padding: 0 15px;
+	float:none;
+}
+.skil .skilrow .form-group {
+  width: 100%;
+}
+.skil .skilrow .form-group .sr-only {
+	overflow: visible;
+	position:static;
+	width:auto;
+}
+.acptTrms.divright,
+.acptTrms .divright{float:none}
+}
+@media screen and (max-width:640px){
+.conhead{margin-top:0}
+.conbody .form{margin-bottom:15px}
+.rsntjobs .list-group-item-text{
+	display:block;
+	float:none;
+}
+.edudtls .strong{padding-left:0}
+.prophoto .photo, .prophoto .emname{float:none}
+.prophoto .emname {
+  padding-left: 0;
+}
+
+}
+
+@media screen and (max-width:480px){
+.contdtls .panel-heading h4 {
+  padding: 0 0 0 10px;
+}
+.contdtls .panel-body .contlist label {
+	display:block;
+	width:auto;
+}
+.panel-body {
+  padding: 0;
+}
+
+.keyword,.locatn,.srcbtnbox{float:none; width:auto}
+.locatn{padding:0}
+.breadcrum li {
+	margin-bottom:5px;
+  display:block;
+}
+.rem-brdcmp {float:right
+}
+.compnylst li {
+  line-height: 25px;
+  padding-bottom: 15px;
+  position: relative;
+}
+.compnylst li a{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.fRgtbtn input{ margin-bottom:15px}
+.amnt{
+	display: block;
+	margin-bottom:15px;
+	padding: 15px 10px;
+}
+}
+
+@media screen and (max-width:359px){
+
+
+}
+
+
+
+
+
+
+
+/*-----mobarak---*/
+
+
+
+
