@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Employer Resume View</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="user-scalable=no, width=device-width, target-densityDpi=device-dpi" />
+<!--Bootstrap Css-->
+<link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap-select.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="css/datepicker.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap-checkbox.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="css/responsive.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="fonts/custom-fonts.css" />
+
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css" />
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-select.js"></script>
+<script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="js/bootstrap-checkbox.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+</head>
+<body>
+<header class="header">
+    <nav class="navbar navbar-default navbar-top prynav">
+        <div class="container-fluid">
+        	<div class="row">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#">Find Job</a></li>
+                        <li><a href="#">Find Walk-ins</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Wellcome, Dhivya Parameshwaran</a></li>
+                    <li><a href="#" class="propic"><img src="images/propic.png" alt="" class="img-responsive"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-inverse prynav">
+        <div class="wrapper">
+        	<div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Find Job</a></li>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">My Jobs</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Responsive nav -->
+    <nav class="navbar navbar-inverse resnav">
+        <div class="wrapper">
+        	<div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-3" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-3">
+                <ul class="nav navbar-nav">
+                	<li><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Find Job</a></li>
+                    <li><a href="#">Find Walk-ins</a></li>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Find Job</a></li>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">My Jobs</a></li>
+                    <li><a href="#">Wellcome, Dhivya Parameshwaran</a></li>
+                    <li><a href="#" class="propic"><img src="images/propic.png" alt="" class="img-responsive"></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="banner">
+    	<img src="images/header-anner.png" alt="" class="img-responsive">
+    </div>
+</header>
+<section class="sectiion">
+	<div class="wrapper">
+    	<div class="container-fluid">
+        	<div class="row">
+                <div class="conhead">
+                    <div class="jobhits container-fluid">
+                        <h2 class="jobtitle">Visibility Settings:</h2>
+                        <p class="pull-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                    </div>
+                </div>
+                <div class="conbody clearfix">
+                    <div class="linktabs applybar clearfix">
+                        <ul class="nav nav-pills divleft">
+                            <li role="presentation"><a href="#">Back</a></li>
+                        </ul>
+                        <ul class="nav nav-pills divright">
+                            <li role="presentation"><a href="#">Download Resume</a></li>
+                            <li role="presentation"><a href="#">Save Proﬁle</a></li>
+                            <li role="presentation"><a href="#">Report</a></li>
+                            <li role="presentation"><a href="#">Download as pdf</a></li>
+                        </ul>
+                    </div>
+                    <div class="container-fluid">
+                        <div class="row">
+                        	<div class="col-lg-9">
+                            	<div class="row">
+                            <p class="pagetitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                            	</div>
+                            </div>
+                        	<div class="col-lg-3 srtinfo divright">
+                                <div class="prophoto clearfix">
+                                	<div class="photo">
+                                		<img src="images/prophoto.png" class="img-responsive">
+                                    </div>
+                                    <div class="emname clearfix">
+                                        <h2>Dhivya Parameshwaran</h2>
+                                        <a href="#">dhivya.parameshwaran@gmail.com</a>
+                                        <a  href="#">+91 9840 826896</a>
+                                        <div class="social divright">
+                                    	<a href="#" class="socico"><i class="fa fa-facebook fa-2x"></i></a>
+                                        <a href="#" class="socico"><i class="fa fa-twitter fa-2x"></i></a>
+                                        <a href="#" class="socico"><i class="fa fa-google-plus fa-2x"></i></a>
+                                        <a href="#" class="socico"><i class="fa fa-linkedin fa-2x"></i></a>
+                                    </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-lg-9 empinfocon">
+                                <div class="row">
+                                    <div class="empinfo clearfix">
+                                        <div class="col-lg-6">
+                                            <div class="row12 clearfix">
+                                                <div class="col-sm-6 labl"><p>Designation:</p></div>
+                                                <div class="col-sm-6 strong"><p>Sr. Java Tech Lead</p></div>
+                                            </div>
+                                            <div class="row12 clearfix">
+                                                <div class="col-sm-6 labl"><p>Current Company:</p></div>
+                                                <div class="col-sm-6 strong"><p>Cognizant Technology Solutions</p></div>
+                                            </div>
+                                            <div class="row12 clearfix">
+                                                <div class="col-sm-6 labl"><p>Current Salary:</p></div>
+                                                <div class="col-sm-6 strong"><p>akhs 45 Thousand</p></div>
+                                            </div>
+                                            <div class="row12 clearfix">
+                                                <div class="col-sm-6 labl"><p>Previous Company:</p></div>
+                                                <div class="col-sm-6 strong"><p>Cognizant Technology Solutions</p></div>
+                                            </div>
+                                            <div class="row12 clearfix">
+                                                <div class="col-sm-6 labl"><p>Current Location:</p></div>
+                                                <div class="col-sm-6 strong"><p>Mumbai</p></div>
+                                            </div>
+                                            <div class="row12 clearfix">
+                                                <div class="col-sm-6 labl"><p>Total Experience:</p></div>
+                                                <div class="col-sm-6 strong"><p>5 Years 8 Months</p></div>
+                                            </div>
+                                            <div class="row12 clearfix">
+                                                <div class="col-sm-6 labl"><p>Notice Period:</p></div>
+                                                <div class="col-sm-6 strong"><p>2 Weeks</p></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="row12 clearfix">
+                                                <div class="col-sm-6 labl"><p>Gender:</p></div>
+                                                <div class="col-sm-6 strong"><p>Female</p></div>
+                                            </div>
+                                            <div class="row12 clearfix">
+                                                <div class="col-sm-6 labl"><p>Marital Status:</p></div>
+                                                <div class="col-sm-6 strong"><p>Married</p></div>
+                                            </div>
+                                            <div class="row12 clearfix">
+                                                <div class="col-sm-6 labl"><p>Date of Birth:</p></div>
+                                                <div class="col-sm-6 strong"><p>25th October 1985</p></div>
+                                            </div>
+                                            <div class="row12 clearfix">
+                                                <div class="col-sm-6 labl"><p>Highest Education:</p></div>
+                                                <div class="col-sm-6 strong"><p>BE ECE</p></div>
+                                            </div>
+                                            <div class="row12 clearfix">
+                                                <div class="col-sm-6 labl"><p>Industry:</p></div>
+                                                <div class="col-sm-6 strong"><p>Software &amp; IT</p></div>
+                                            </div>
+                                            <div class="row12 clearfix">
+                                                <div class="col-sm-6 labl"><p>Skype ID:</p></div>
+                                                <div class="col-sm-6 strong"><p>dhivya.par85</p></div>
+                                            </div>
+                                            <div class="row12 clearfix">
+                                                <div class="col-sm-6 labl"><p>gtalk ID:</p></div>
+                                                <div class="col-sm-6 strong"><p>dhivya.parameshwaran</p></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="objective">
+                                        <h3>Objective:</h3>
+                                        <p><span class="space">&nbsp;</span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                                    </div>
+                                    <div class="objective">
+                                        <h3>Language Proficiency:</h3>
+                                        <table class="table table-responsive text-center tbl">
+                                            <thead>
+                                                <tr>
+                                                    <td>Language</td>
+                                                    <td>Read</td>
+                                                    <td>Write</td>
+                                                    <td>Speak</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Malayalam</td>
+                                                    <td><i class="ok">&nbsp;</i></td>
+                                                    <td><i class="ok">&nbsp;</i></td>
+                                                    <td><i class="ok">&nbsp;</i></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Telugu</td>
+                                                    <td><i class="cross">&nbsp;</i></td>
+                                                    <td><i class="cross">&nbsp;</i></td>
+                                                    <td><i class="ok">&nbsp;</i></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Hindi</td>
+                                                    <td><i class="ok">&nbsp;</i></td>
+                                                    <td><i class="cross">&nbsp;</i></td>
+                                                    <td><i class="cross">&nbsp;</i></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>English</td>
+                                                    <td><i class="ok">&nbsp;</i></td>
+                                                    <td><i class="cross">&nbsp;</i></td>
+                                                    <td><i class="ok">&nbsp;</i></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="objective clearfix">
+                                        <h3>Educational details:</h3>
+                                        <div class="col-lg-6 col-md-6 edudtls">
+                                            <div class="row12 clearfix">
+                                                <div class="col-sm-6 labl">Under Graduation:</div>
+                                                <div class="col-sm-6 strong">Anna University</div>
+                                            </div>
+                                            <div class="row12 clearfix">
+                                                <div class="col-sm-6 labl">Degree:</div>
+                                                <div class="col-sm-6 strong">B.E.</div>
+                                            </div>
+                                            <div class="row12 clearfix">
+                                                <div class="col-sm-6 labl">Specialization:</div>
+                                                <div class="col-sm-6 strong">ECE</div>
+                                            </div>
+                                            <div class="row12 clearfix">
+                                                <div class="col-sm-6 labl">Graduated by:</div>
+                                                <div class="col-sm-6 strong">March 2007</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 edudtls">
+                                            <div class="row12 clearfix">
+                                                <div class="col-sm-6 labl">Post Graduation:</div>
+                                                <div class="col-sm-6 strong">Anna University</div>
+                                            </div>
+                                            <div class="row12 clearfix">
+                                                <div class="col-sm-6 labl">Degree:</div>
+                                                <div class="col-sm-6 strong">M.E.</div>
+                                            </div>
+                                            <div class="row12 clearfix">
+                                                <div class="col-sm-6 labl">Specialization:</div>
+                                                <div class="col-sm-6 strong">E.I.</div>
+                                            </div>
+                                            <div class="row12 clearfix">
+                                                <div class="col-sm-6 labl">Graduated by:</div>
+                                                <div class="col-sm-6 strong">March 2009</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="objective">
+                                        <h3>Skills:</h3>
+                                        <table class="table text-center table-responsive tbl">
+                                            <thead>
+                                                <tr>
+                                                    <td>Skills</td>
+                                                    <td>Version</td>
+                                                    <td>No of Yrs used</td>
+                                                    <td>Last Used</td>
+                                                    <td>Level</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Java</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Peoplesoft</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>ATG</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Kronos</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>ATG</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Kronos</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Kronos</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>ATG</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Kronos</td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <div class="objective clearfix">
+                                        <h3>Certification Details:</h3>
+                                        <div class="col-sm-12 edudtls">
+                                            <div class="row12 clearfix">
+                                                <div class="col-sm-4 col-md-3 labl"><p>Certification Name:</p></div>
+                                                <div class="col-sm-8 col-md-9 strong"><p>Oracle Certification Admin</p></div>
+                                            </div>
+                                            <div class="row12 clearfix">
+                                                <div class="col-sm-4 col-md-3 labl"><p>Certification Date:</p></div>
+                                                <div class="col-sm-8 col-md-9 strong"><p>July 2015</p></div>
+                                            </div>
+                                            <div class="row12 clearfix">
+                                                <div class="col-sm-4 col-md-3 labl"><p>Certification Centre:</p></div>
+                                                <div class="col-sm-8 col-md-9 strong"><p>NIIT, Bangalore</p></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 empinfocon">
+                                <div class="row">
+                                    <h3>Professional History:</h3>
+                                    <div class="prohistry">
+                                        <div class="histryhed clearfix">
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="row12 clearfix">
+                                                    <div class="col-sm-4 labl"><p>Company Name:</p></div>
+                                                    <div class="col-sm-8 strong"><p>Cognizant Technology Solutions</p></div>
+                                                </div>
+                                                <div class="row12 clearfix">
+                                                    <div class="col-sm-4 labl"><p>Designation:</p></div>
+                                                    <div class="col-sm-8 strong"><p>Sr. Java Tech Lead</p></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="row12 clearfix">
+                                                    <div class="col-sm-4 labl"><p>Duration:</p></div>
+                                                    <div class="col-sm-8 strong"><p>Jan 20012 to July 2015</p></div>
+                                                </div>
+                                                <div class="row12 clearfix">
+                                                    <div class="col-sm-4 labl"><p>Location:</p></div>
+                                                    <div class="col-sm-8 strong"><p>Bangalore, KA</p></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="projet clearfix">
+                                            <h3>Project2:</h3>
+                                            <div class="col-lg-6">
+                                                <div class="row12 clearfix">
+                                                    <div class="col-sm-4 labl"><p>Project Name:</p></div>
+                                                    <div class="col-sm-8 strong"><p>Lorem IPsum</p></div>
+                                                </div>
+                                                <div class="row12 clearfix">
+                                                    <div class="col-sm-4 labl"><p>Designation:</p></div>
+                                                    <div class="col-sm-8 strong"><p>Sr. Java Tech Lead</p></div>
+                                                </div>
+                                                <div class="row12 clearfix">
+                                                    <div class="col-sm-4 labl"><p>Client Name:</p></div>
+                                                    <div class="col-sm-8 strong"><p>Yahoo Inc</p></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="row12 clearfix">
+                                                    <div class="col-sm-4 labl"><p>Project Name:</p></div>
+                                                    <div class="col-sm-8 strong"><p>Lorem IPsum</p></div>
+                                                </div>
+                                                <div class="row12 clearfix">
+                                                    <div class="col-sm-4 labl"><p>Designation:</p></div>
+                                                    <div class="col-sm-8 strong"><p>Sr. Java Tech Lead</p></div>
+                                                </div>
+                                                <div class="row12 clearfix">
+                                                    <div class="col-sm-4 labl"><p>Team Members:</p></div>
+                                                    <div class="col-sm-8 strong"><p>24</p></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <div class="row12 clearfix">
+                                                    <div class="col-lg-2 col-md-4 col-sm-4 labl"><p>Skills Used:</p></div>
+                                                    <div class="col-xs-10 col-md-8 col-sm-8 strong"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </p></div>
+                                                </div>
+                                                <div class="row12 clearfix">
+                                                    <div class="col-lg-2 col-md-4 col-sm-4 labl"><p>Project Description:</p></div>
+                                                    <div class="col-xs-10 col-md-8 col-sm-8 strong"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </p></div>
+                                                </div>
+                                            </div
+                                        >
+                                        </div>
+                                    </div>
+                                    <div class="prohistry">
+                                        <div class="histryhed clearfix">
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="row12 clearfix">
+                                                    <div class="col-sm-4 labl"><p>Company Name:</p></div>
+                                                    <div class="col-sm-8 strong"><p>Cognizant Technology Solutions</p></div>
+                                                </div>
+                                                <div class="row12 clearfix">
+                                                    <div class="col-sm-4 labl"><p>Designation:</p></div>
+                                                    <div class="col-sm-8 strong"><p>Sr. Java Tech Lead</p></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6 col-md-6">
+                                                <div class="row12 clearfix">
+                                                    <div class="col-sm-4 labl"><p>Duration:</p></div>
+                                                    <div class="col-sm-8 strong"><p>Jan 20012 to July 2015</p></div>
+                                                </div>
+                                                <div class="row12 clearfix">
+                                                    <div class="col-sm-4 labl"><p>Location:</p></div>
+                                                    <div class="col-sm-8 strong"><p>Bangalore, KA</p></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="projet clearfix">
+                                            <h3>Project2:</h3>
+                                            <div class="col-lg-6">
+                                                <div class="row12 clearfix">
+                                                    <div class="col-sm-4 labl"><p>Project Name:</p></div>
+                                                    <div class="col-sm-8 strong"><p>Lorem IPsum</p></div>
+                                                </div>
+                                                <div class="row12 clearfix">
+                                                    <div class="col-sm-4 labl"><p>Designation:</p></div>
+                                                    <div class="col-sm-8 strong"><p>Sr. Java Tech Lead</p></div>
+                                                </div>
+                                                <div class="row12 clearfix">
+                                                    <div class="col-sm-4 labl"><p>Client Name:</p></div>
+                                                    <div class="col-sm-8 strong"><p>Yahoo Inc</p></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="row12 clearfix">
+                                                    <div class="col-sm-4 labl"><p>Project Name:</p></div>
+                                                    <div class="col-sm-8 strong"><p>Lorem IPsum</p></div>
+                                                </div>
+                                                <div class="row12 clearfix">
+                                                    <div class="col-sm-4 labl"><p>Designation:</p></div>
+                                                    <div class="col-sm-8 strong"><p>Sr. Java Tech Lead</p></div>
+                                                </div>
+                                                <div class="row12 clearfix">
+                                                    <div class="col-sm-4 labl"><p>Team Members:</p></div>
+                                                    <div class="col-sm-8 strong"><p>24</p></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <div class="row12 clearfix">
+                                                    <div class="col-lg-2 col-md-4 col-sm-4 labl"><p>Skills Used:</p></div>
+                                                    <div class="col-xs-10 col-md-8 col-sm-8 strong"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </p></div>
+                                                </div>
+                                                <div class="row12 clearfix">
+                                                    <div class="col-lg-2 col-md-4 col-sm-4 labl"><p>Project Description:</p></div>
+                                                    <div class="col-xs-10 col-md-8 col-sm-8 strong"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna </p></div>
+                                                </div>
+                                            </div
+                                        >
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                        	<div class="downresm clearfix">
+                            	<div class="resmtop clearfix">
+                                	<p class="divleft">Resume:</p>
+                                	<a href="#" class="downbtn divright">Download Resume</a>
+                                </div>
+                                <div class="col-xs-12 viw-resm"></div>
+                            </div>
+                        </div>            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+	<div class="footer-wrapper clearfix">
+        <div class="col-lg-4 col-sm-4 col-xs-12">
+            <h3>General</h3>
+            <div class="list-group">
+                <a href="#" class="list-group-item">Home</a>
+                <a href="#" class="list-group-item">Find Job</a>
+                <a href="#" class="list-group-item">Employer Zone</a>
+                <a href="#" class="list-group-item">Products</a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-4 col-xs-12">
+            <h3>Candidate</h3>
+            <div class="list-group">
+                <a href="#" class="list-group-item">Candidate Registration</a>
+                <a href="#" class="list-group-item">My Account</a>
+                <a href="#" class="list-group-item">Terms &amp; Conditions</a>
+                <a href="#" class="list-group-item">Privacy Policy</a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-4 col-xs-12">
+            <h3>Employer</h3>
+            <div class="list-group">
+                <a href="#" class="list-group-item">Employer Registration</a>
+                <a href="#" class="list-group-item">Find resumes</a>
+                <a href="#" class="list-group-item">Post Jobs</a>
+                <a href="#" class="list-group-item">About Us</a>
+                <a href="#" class="list-group-item">Contact Us</a>
+            </div>
+        </div>
+    </div>
+    <div class="copyrth">
+        <div class="footer-wrapper">
+            <p>Copyright @ Chandrans Infotech 2015</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
