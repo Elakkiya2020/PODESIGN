@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Job Search</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="user-scalable=no, width=device-width, target-densityDpi=device-dpi" />
+
+<!--Bootstrap Css-->
+<link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap-select.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="css/datepicker.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap-checkbox.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="css/responsive.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="fonts/custom-fonts.css" />
+
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css" />
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-select.js"></script>
+<script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
+<script type="text/javascript" src="js/bootstrap-checkbox.js"></script>
+<script type="text/javascript" src="js/js.js"></script>
+</head>
+<body>
+<header class="header">
+    <nav class="navbar navbar-default navbar-top prynav">
+        <div class="container-fluid">
+        	<div class="row">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                        <li><a href="#">Find Job</a></li>
+                        <li><a href="#">Find Walk-ins</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Wellcome, Dhivya Parameshwaran</a></li>
+                    <li><a href="#" class="propic"><img src="images/propic.png" alt="" class="img-responsive"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-inverse prynav">
+        <div class="wrapper">
+        	<div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Find Job</a></li>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">My Jobs</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Responsive nav -->
+    <nav class="navbar navbar-inverse resnav">
+        <div class="wrapper">
+        	<div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-3" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-3">
+                <ul class="nav navbar-nav">
+                	<li><a href="#">Home <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Find Job</a></li>
+                    <li><a href="#">Find Walk-ins</a></li>
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Find Job</a></li>
+                    <li><a href="#">My Account</a></li>
+                    <li><a href="#">My Jobs</a></li>
+                    <li><a href="#">Wellcome, Dhivya Parameshwaran</a></li>
+                    <li><a href="#" class="propic"><img src="images/propic.png" alt="" class="img-responsive"></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="banner">
+    	<img src="images/header-anner.png" alt="" class="img-responsive">
+    </div>
+</header>
+<section class="sectiion">
+	<div class="wrapper">
+    	<div class="container-fluid">
+        	<div class="row">
+                <div class="conhead">
+                    <div class="jobhits container-fluid">
+                        <h2 class="jobtitle">Job Search Results:</h2>
+                        <p class="pull-left">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</p>
+                    </div>
+                </div>
+                <div class="conbody clearfix">
+                    <div class="linktabs clearfix">
+                        <ul class="nav nav-pills divleft">
+                            <li role="presentation"><a href="#">Back to Result</a></li>
+                        </ul>
+                        <ul class="nav nav-pills divright">
+                            <li role="presentation"><a href="#">New Search</a></li>
+                            <li role="presentation"><a href="#">Modify Search</a></li>
+                            <li role="presentation"><a href="#">Save Search</a></li>
+                        </ul>
+                    </div>
+                    <form class="form clearfix cusForm">
+                        <div class="keyword form-group">
+                            <div class="row">
+                            <input type="text" class="form-control input-lg" placeholder="">
+                            </div>
+                        </div>
+                        <div class="locatn form-group">
+                            <input type="text" class="form-control input-lg" placeholder="">
+                        </div>
+                        <div class="srcbtnbox form-group">
+                            <div class="row">
+                                <input type="submit" class="button divleft" value="Search">
+                            </div>
+                        </div>
+                    </form>
+                    <ol class="breadcrum">
+                        <li><a href="#">Java</a><span class="rem-brdcmp">&nbsp;</span></li>
+                        <li><a href="#">Informatica</a><span class="rem-brdcmp">&nbsp;</span></li>
+                        <li class="active">Bangalore<span class="rem-brdcmp">&nbsp;</span></li>
+                    </ol>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-3 reﬁne">
+                                <h2 class="text-center">Reﬁne Search:</h2>
+                                <div class="checkbx clearfix">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Location:</a>
+                                    <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                                        <label class="checkbox-block">
+                                        <input type="checkbox" id="" class="checkbox" value="option1">Chennai (1265)
+                                        </label>
+                                        <label class="checkbox-block">
+                                        <input type="checkbox" id="" class="checkbox" value="option1">Hyderabad (953)
+                                        </label>
+                                        <label class="checkbox-block">
+                                        <input type="checkbox" id="" class="checkbox" value="option1">Mumbai (654)
+                                        </label>
+                                        <button type="button" class="btn pull-right">Reﬁne</button>
+                                    </div>
+                                </div>
+                                <div class="checkbx clearfix">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsetwo" aria-expanded="true" aria-controls="collapseOne">Locality:</a>
+                                    <div id="collapsetwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingtwo">
+                                        <label class="checkbox-block">
+                                        <input type="checkbox" id="" class="checkbox" value="option1">Anna Nagar (1265)
+                                        </label>
+                                        <label class="checkbox-block">
+                                        <input type="checkbox" id="" class="checkbox" value="option1">Tambaram (953)
+                                        </label>
+                                        <label class="checkbox-block">
+                                        <input type="checkbox" id="" class="checkbox" value="option1">Saidapet (654)
+                                        </label>
+                                        <button type="button" class="btn pull-right">Reﬁne</button>
+                                    </div>
+                                </div>
+                                <div class="checkbx clearfix">
+                                	<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsetree" aria-expanded="true" aria-controls="collapseOne">Functional Area:</a>
+                                	<div id="collapsetree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingtree">
+                                        <label class="checkbox-block">
+                                            <input type="checkbox" id="" class="checkbox" value="option1">BPO (1265)
+                                        </label>
+                                        <label class="checkbox-block">
+                                            <input type="checkbox" id="" class="checkbox" value="option1">HR &nbsp; Recruitment (953)
+                                        </label>
+                                        <label class="checkbox-block">
+                                            <input type="checkbox" id="" class="checkbox" value="option1">Software Development (654)
+                                        </label>
+                                        <button type="button" class="btn pull-right">Reﬁne</button>
+                                    </div>
+                                </div>
+                                <div class="checkbx clearfix">
+                                	<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefour" aria-expanded="true" aria-controls="collapseOne">Distance:</a>
+                                	<div id="collapsefour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfour">
+                                        <label class="checkbox-block">
+                                            <input type="checkbox" id="" class="checkbox" value="option1">Within 10 Kms (1265)
+                                        </label>
+                                        <label class="checkbox-block">
+                                            <input type="checkbox" id="" class="checkbox" value="option1">Within 20 Kms (953)
+                                        </label>
+                                        <label class="checkbox-block">
+                                            <input type="checkbox" id="" class="checkbox" value="option1">Within 30 Kms (654)
+                                        </label>
+                                        <button type="button" class="btn pull-right">Reﬁne</button>
+                                    </div>
+                                </div>
+                                <div class="checkbx">
+                                	<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefive" aria-expanded="true" aria-controls="collapseOne">Other:</a>
+                                    <div id="collapsefive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfive">
+                                        <label class="checkbox-block">
+                                            <input type="checkbox" id="" class="checkbox" value="option1">Not Viewed (652)
+                                        </label>
+                                        <label class="checkbox-block">
+                                            <input type="checkbox" id="" class="checkbox" value="option1">Bookmarked (32)
+                                        </label>
+                                        <label class="checkbox-block">
+                                            <input type="checkbox" id="" class="checkbox" value="option1">Featured jobs (524)
+                                        </label>
+                                        <button type="button" class="btn pull-right">Reﬁne</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-9 srtbycont">
+                                <div class=" col-xs-12">
+                                    <div class="row">
+                                        <form class="form-inline sortby cusForm">
+                                            <div class="form-group">
+                                                <label for="">Sort by:</label>
+                                                <select id="basic" class="form-control">
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="">Number of Jobs per page:</label>
+                                                <select id="basic" class="form-control">
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="panel panel-default pull-right">
+                                    <div class="panel-heading"><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolore:</a><span class="label">&nbsp;</span></div>
+                                    <div class="panel-body">
+                                        <p><a href="#">Cognizant Technology Solutions | Navi Mumbai</a><span class="pull-right">Posted on: 12/1/2015</span></p>
+                                        <span>Exp: 5 - 8 Years | Java Developer</span>
+                                        <p>Job Description:</p>
+                                        <span>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium </span>
+                                        <p>Skills Needed:</p>
+                                        <span>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium </span>
+                                    </div>
+                                </div>
+                                        <div class="panel panel-default pull-right">
+                                            <div class="panel-heading"><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolore:</a><span class="label-blue">&nbsp;</span></div>
+                                            <div class="panel-body">
+                                                <p><a href="#">Cognizant Technology Solutions | Navi Mumbai</a><span class="pull-right">Posted on: 12/1/2015</span></p>
+                                                <span>Exp: 5 - 8 Years | Java Developer</span>
+                                                <p>Job Description:</p>
+                                                <span>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium </span>
+                                                <p>Skills Needed:</p>
+                                                <span>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium </span>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default pull-right">
+                                            <div class="panel-heading"><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolore:</a><span class="label">&nbsp;</span></div>
+                                            <div class="panel-body">
+                                                <p><a href="#">Cognizant Technology Solutions | Navi Mumbai</a><span class="pull-right">Posted on: 12/1/2015</span></p>
+                                                <span>Exp: 5 - 8 Years | Java Developer</span>
+                                                <p>Job Description:</p>
+                                                <span>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium </span>
+                                                <p>Skills Needed:</p>
+                                                <span>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium </span>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default pull-right">
+                                            <div class="panel-heading"><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut dolore:</a><span class="label">&nbsp;</span></div>
+                                            <div class="panel-body">
+                                                <p><a href="#">Cognizant Technology Solutions | Navi Mumbai</a><span class="pull-right">Posted on: 12/1/2015</span></p>
+                                                <span>Exp: 5 - 8 Years | Java Developer</span>
+                                                <p>Job Description:</p>
+                                                <span>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium </span>
+                                                <p>Skills Needed:</p>
+                                                <span>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium </span>
+                                            </div>
+                                        </div>
+                                        <nav class="pull-right">
+                                            <ul class="pagination">
+                                            <li><a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+                                            <li><a href="#">1</a></li>
+                                            <li><a href="#">2</a></li>
+                                            <li><a href="#">3</a></li>
+                                            <li><a href="#">4</a></li>
+                                            <li><a href="#">5</a></li>
+                                            <li><a href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+                                            </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+	<div class="footer-wrapper clearfix">
+        <div class="col-lg-4 col-sm-4 col-xs-12">
+            <h3>General</h3>
+            <div class="list-group">
+                <a href="#" class="list-group-item">Home</a>
+                <a href="#" class="list-group-item">Find Job</a>
+                <a href="#" class="list-group-item">Employer Zone</a>
+                <a href="#" class="list-group-item">Products</a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-4 col-xs-12">
+            <h3>Candidate</h3>
+            <div class="list-group">
+                <a href="#" class="list-group-item">Candidate Registration</a>
+                <a href="#" class="list-group-item">My Account</a>
+                <a href="#" class="list-group-item">Terms &amp; Conditions</a>
+                <a href="#" class="list-group-item">Privacy Policy</a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-sm-4 col-xs-12">
+            <h3>Employer</h3>
+            <div class="list-group">
+                <a href="#" class="list-group-item">Employer Registration</a>
+                <a href="#" class="list-group-item">Find resumes</a>
+                <a href="#" class="list-group-item">Post Jobs</a>
+                <a href="#" class="list-group-item">About Us</a>
+                <a href="#" class="list-group-item">Contact Us</a>
+            </div>
+        </div>
+    </div>
+    <div class="copyrth">
+        <div class="footer-wrapper">
+            <p>Copyright @ Chandrans Infotech 2015</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
