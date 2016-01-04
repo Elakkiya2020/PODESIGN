@@ -1,0 +1,761 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+/*font-family:'Open Sans', sans-serif;*/
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,500,600);
+/*------------------------------*/
+/*------  Mesbaul Islam --------*/
+/*------  DATE: 23-Oct-2015 ----*/
+/*------------------------------*/
+body{
+	padding:0;
+	margin:0;
+	font-size:14px;
+	line-height:23px;
+	font-weight:400;
+	text-align:left;
+	color:#000;
+	background-color:#fff;
+	font-family:'Raleway';
+}
+/*------------------------------*/
+/*------  Common styles   ------*/
+/*------------------------------*/
+a{text-decoration:none;!important outline:none; color:#000}
+a:hover{text-decoration:none!important;}
+a:focus{outline:none;!important}
+p{padding:0; margin:0}
+ul{padding:0; margin:0; list-style:none;}
+*{outline:none}
+img,button,.text,.submit,
+.textarea{margin:0;outline:none;border:none;background:none}
+header,nav,section,footer{display:block}
+h1,h2,h3,h4,h5,h6{padding:0; margin:0;}
+img{border:none;outline:0}
+.clear{
+	height:0;
+	width:0;
+	border:0;
+	line-height:0;
+	clear:both;
+}
+.class:after,
+.class:before{
+	content:"";
+	clear:both;
+	display:table;
+	box-sizing:border-box;
+}
+/*------------------------------*/
+/*-----    all headings    -----*/
+/*------------------------------*/
+.footer-wrapper h3{
+  background: rgba(0, 0, 0, 0) url("images/h4bg.png") no-repeat scroll left bottom;
+  color: #fff;
+  font-family: 'segoe-ui-light';
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 23px;
+  margin:20px 0;
+  padding-bottom: 10px;
+}
+/*-----------------------------*/
+/*---- main structure  --------*/
+/*-----------------------------*/
+.wrapper{
+	max-width:1318px;
+	padding:0;
+	margin:0 auto;
+}
+.footer-wrapper{
+	max-width:830px;
+	padding:0;
+	margin:0 auto;
+}
+.cusForm .bootstrap-select .btn,
+.cusForm .bootstrap-select .btn,
+.cusForm .form-control{border-radius:0!important; box-shadow:none}
+/*-----------------------------*/
+/*----   header Style  --------*/
+/*-----------------------------*/
+.header .navbar{
+	margin:0 !important;
+	border-radius:0;
+	border:none;
+}
+.header .navbar-top{
+	
+}
+.header .navbar-top{
+	padding:0;
+	margin:0;
+	background:url(images/nav-bg.png) no-repeat top center;
+	background-size:cover;
+}
+.navbar-top ul li a{color:#000}
+.header .navbar-inverse .navbar-nav li a{color:#fff}
+.navbar-nav  li .propic{
+	padding:10px;
+}
+.resnav{
+	display:none;
+}
+/*-----------------------------*/
+/*---------   Common  ---------*/
+/*-----------------------------*/
+.space{padding-left:60px}
+.button{
+	padding:4px 33px;
+	font-family:"Raleway";
+	font-size:18px;
+	font-weight:500;
+	line-height:30px;
+	display:inline-block;
+	border:2px solid #0290ff;
+	transition: all 0.5s ease 0s;
+	background-color:transparent;
+}
+.button:hover{
+	color:#fff;
+	background-color:#0290ff;
+	transition: all 0.5s ease 0s;
+}
+.divleft{float:left}
+.divright{float:right}
+.txtarea{resize:none}
+.downbtn{
+	width:200px;
+	padding:0;
+	color:#000;
+	background-color:#fafafa;
+}
+.input-lg{height:42px !important}
+/*-----------------------------*/
+/*--------  container  --------*/
+/*-----------------------------*/
+.conhead{
+	padding:20px 15px 12px;
+	margin-top:-143px;
+	background-color:#FAFAFA;
+	position:relative;
+	z-index:2;
+}
+.jobhits h2.jobtitle{
+	padding:14px 0 10px;
+	color:#3fa9f3;
+	font-size:17px;
+	font-weight:400;
+	line-height:25px;
+	display:block;
+}
+.jobhits p{
+	padding:12px 0 25px;
+	margin:0;
+	font-family:'Open Sans';
+	font-size:17px;
+	line-height:25px;
+	font-weight:300;
+}
+.jobhits p span{padding:0 20px 0 54px}
+a.freepos{
+	color:#000;
+	font-family:'captureit';
+	font-size:18px;
+	line-height:24px;
+	background-color:#3fa9f5;
+	border-radius:0;
+}
+.cogniz h2{
+	margin:0 0 8px;
+	color:#000;
+	font-family:'captureit';
+	font-size:18px;
+	line-height:24px;
+}
+.cogniz .brnd-img{margin-left:32px}
+/* Contant Body */
+.conbody{
+	padding:41px 0 100px;
+	margin:0;
+}
+.conbody .applybar{
+	margin-bottom:33px;
+	padding:6px 0;
+	border:1px solid #f0f0f0;
+}
+.salary,
+.postOn{
+	padding-top:16px;
+	margin-bottom:0;
+	font-family:'segoe-ui-light';
+	font-size:16px;
+}
+.linktabs{
+	margin-bottom:20px;
+	border-bottom:1px solid #ebebeb;
+}
+.linktabs ul li{
+	width:155px;
+	text-align:center;
+	background-color:#fafafa
+}
+.keyword,.locatn,.srcbtnbox{
+	padding:0 15px;
+	float:left;
+	box-sizing:border-box;
+}
+.keyword{width:59.4%}
+.locatn{width:30%}
+.srcbtnbox{	}
+/* Personal Details */
+.jobdtls{padding:50px 0 80px 40px}
+.jobdtls li label{width:20%}
+.lftside h2 {
+	padding: 20px 0 30px;
+	margin:0;
+	font-size: 19px;
+	line-height: 25px;
+}
+
+.lftside p{
+	font-family:'segoe-ui-light';
+	font-weight:300;
+	font-size:16px;
+}
+.lftside .contdtls{
+	padding:0;
+	margin:0;
+}
+.lftside .contdtls .panel-title{
+	padding-bottom:54px;
+}
+.lftside .contdtls .panel-title a{
+	padding:10px 28px;
+	display:block;
+	background:#f5f5f5 url(images/down-cart.png) no-repeat center right;
+}
+.contdtls .panel-collapse{padding-left:28px}
+
+.contdtls .panel-collapse h4{
+	padding-bottom:10px;
+	color:#a4a4a4;
+	font-size: 19px;
+	line-height: 25px;
+}
+.contlist{padding-bottom:40px}
+.contlist .list-item{line-height:28px}
+.contlist .list-item label{width:20%; font-weight:400}
+
+
+.rthside{border:1px solid #f5f5f5}
+.rsntjobs{
+	width:100%;
+	padding-bottom:168px;
+}
+.rsntjobs h2{
+	background-color:#fafafa;
+	font-size:17px;
+	line-height:23px;
+	margin:0;
+	padding:20px 0;
+}
+.rsntjobs .list-group{margin-bottom:0}
+.rsntjobs .list-group .list-group-item{border:none}
+/* Content Body Form Section */
+.conbody .fieldset-border{
+	margin-bottom:50px;
+	padding:35px 35px 20px 35px;
+	border:1px solid #f2f2f2;
+}
+.conbody .legend-border{
+	width:auto;
+	margin-bottom:0;
+	padding:0 50px 0 24px;
+	border:none;
+	font-family:'segoe-ui-light';
+}
+.conbody .signup{margin-top:10px}
+.conbody .signup h3{
+	padding-bottom:10px;
+	color:#333;
+	font-family:'segoe-ui-light';
+	font-size:21px;
+	line-height:27px;
+}
+.form-group .control-label{
+	color:#333;
+	font-family:'segoe-ui-light';
+	font-weight:400;
+	font-size:17px;
+}
+.prsonal .form-group .control-label{text-align:left}
+.profesional .form-group .control-label{text-align:right}
+.prsonal h2{
+	color:#333;
+	font-size:18px;
+	font-family:'Open Sans';
+	line-height:24px;
+	font-weight:400;
+	font-style:italic;
+}
+.prsonal .input-group .cal{border-right:none}
+.prsonal .cal-ico{
+	padding:0 20px;
+	border-radius:0;
+	background:url(images/calan-ico.png) no-repeat center center;
+}
+
+.filebx{
+	padding:4px;
+	border:1px solid #e6e6e6;
+}
+
+.prsonal .inline-select .control-label,
+.profesional .inline-select .control-label{
+	padding:7px 30px 0 0;
+	text-align:left;
+}
+.langknwn{
+	padding-bottom:30px;
+	border-bottom:1px solid #eee;
+}
+.langknwn .control-label{padding-bottom:5px}
+.addlang{
+	padding:0;
+	margin:10px 0 23px;
+	display:inline-block;
+}
+.gender .checkbox-inline,
+.emplotype .checkbox-inline{
+  border: 1px solid #eee;
+  margin: 5px 0;
+  padding: 3px 15px 0 0;
+}
+
+.expnce .expdt{padding:0 5px}
+.langknwn .col-xs-4 .control-label{text-align:center}
+.langknwn .rewrsp{padding-top:20px}
+.langknwn .rewrsp .form-control{width:auto; display:inline-block}
+/* Profesional */
+.pagination,
+.pagination li a{border-radius:0!important; box-shadow:none}
+.profesional h3{
+	padding-bottom:20px;
+	color:#4c4c4c;
+	font-size:19px;
+	font-style:italic;
+}
+.skil .skilrow .form-group{width:16%}
+.skil .skilrow{padding-bottom:20px}
+.formsec .remove .form-control{box-shadow:none}
+.rem-skil-row{
+	padding:0 10px;
+	line-height:34px;
+	display:inline-block;
+	background:url(images/rem-skil.png) no-repeat left center;
+}
+.inline-select{
+	padding:0;
+	margin:0;
+}
+.inline-select .select,
+.inline-select .to{
+	width:17.6%;
+	padding:0 15px;
+	margin:0;
+	float:left;
+}
+.inline-select .to{
+	width:50px;
+	text-align:center;
+}
+.hr{margin:0;}
+.project h2{
+	font-size:19px;
+	font-style:italic;
+}
+.project h3{
+	padding:20px 0 5px;
+	font-size:19px;
+	font-style:italic;
+}
+.project p{
+	font-size:17px;
+	font-family:'segoe-ui-light';
+}
+.project{
+	margin-top:40px;
+}
+/*Search Result*/
+.breadcrum{
+	padding:0;
+	margin:0 0 15px;
+}
+.breadcrum li{
+	padding-left:15px;
+	display:inline-block;
+	list-style:none;
+	line-height:30px;
+	background-color:#FAFAFA;
+}
+.rem-brdcmp{
+	padding:0 15px;
+	margin-left:15px;
+	display:inline-block;
+	cursor:pointer;
+	background:#EBEBEB url(images/rem-brdcmp.png) no-repeat center center;
+}
+.panel{border-radius:0 !important}
+.reﬁne{
+	padding:0 15px;
+	margin:0;
+	border:1px solid #E6E6E6;
+}
+.reﬁne h2{
+	padding:15px 0;
+	margin:5px 0 20px;
+	font-size:16px;
+	background-color:#FAFAFA;
+}
+.checkbx a{
+	padding:10px 0;
+	font-size:15px;
+	line-height:20px;
+	display:block;
+	background:url(images/caret-down.png) no-repeat right center;
+}
+.checkbx .checkbox-block{
+	margin:0;
+	font-size:15px;
+	font-family:'segoe-ui-light';
+	display:block;
+}
+.checkbx .btn{
+	color:#0290FF;
+	font-size:14px;
+}
+.sortby{
+	margin-bottom:40px;
+	float:right;
+}
+.sortby .form-group{
+	padding:5px;
+	border:1px solid #eee;
+}
+.panel-default > .panel-heading{
+	position:relative;
+	padding-right:40px;
+}
+.panel-default > .panel-heading a{color:#249FFF; font-size:16px;}
+.panel-default > .panel-body p a,
+.panel-default > .panel-body p{
+	margin:0;
+	color:#666666;
+	font-size:16px;
+	font-weight:300;
+}
+.panel-default > .panel-body span{
+	padding-bottom:10px;
+	font-size:16px;
+	font-family:'Open Sans';
+	font-weight:300;
+	display:block;
+}
+.panel-default > .panel-heading .label-blue,
+.panel-default > .panel-heading .label{
+	padding:18px 14px;
+	display:inline-block;
+	position:absolute;
+	right:5px;
+	top:-12px;
+}
+.panel-default > .panel-heading .label{background:url(images/label-bl.png) no-repeat right top;}
+.panel-default > .panel-heading .label-blue{background:url(images/label-bl-blue.png) no-repeat right top;}
+/* 04-11-2015 */
+/* employer-resume-view */
+.empinfocon h3{
+	padding:40px 0 13px;
+	color#8f8f8f;
+	font-family:'segoe-ui-light';
+	font-size:21px;
+	line-height:26px;
+	font-style:italic;
+}
+.empinfocon{padding-right:45px}
+p.pagetitle{
+	padding-bottom:28px;
+	color:#3fa9f3;
+	font-size:19px;
+	line-height:25px;
+}
+.empinfo{
+	padding:8px 0;
+	border:1px solid #eee;
+}
+.prohistry{
+	padding:23px 0;
+	margin-bottom:40px;
+	background-color:#fcfcfc
+}
+.empinfo .row12,
+.edudtls .row12{padding-bottom:15px}
+.prohistry .row12{padding-bottom:10px}
+
+.empinfo .row12 .labl,
+.empinfo .row12 .strong,
+.edudtls .row12 .labl,
+.edudtls .row12 .strong,
+.prohistry .row12 .labl,
+.prohistry .row12 .strong{
+	font-size:18px;
+	font-family:'segoe-ui-light';
+}
+.empinfo .row12 .labl,
+.edudtls .row12 .labl,
+.prohistry .row12 .labl{
+	color:#8f8f8f;
+}
+
+.tbl{margin-bottom:0; border:1px solid #eee;}
+.tbl thead{background-color:#f2f2f2}
+.ok,.cross{
+	margin:0 auto;
+	height:25px;
+	width:25px;
+	display:block;
+	
+}
+.ok{background:url(images/check-icons.png) no-repeat left bottom}
+.cross{background:url(images/rem-brdcmp.png) no-repeat center center}
+.edudtls{padding:0}
+.edudtls .labl{padding-left:0}
+
+.projet h3{
+	padding-left:30px;
+}
+.prophoto{
+	padding:13px;
+	margin-right:-15px;
+	box-shadow:0 0 5px #cdcdcd;
+}
+.prophoto .photo img{width:100%;}
+.emname h2{
+	padding:15px 0;
+	font-family:'Open Sans';
+	font-size:19px;
+	font-weight:300;
+	line-height:25px;
+}
+.emname a{
+	padding:5px 0;
+	font-family:'Open Sans';
+	font-size:16px;
+	font-weight:300;
+	line-height:21px;
+	display:block;
+}
+.social{
+	margin-top:30px;
+	border:1px solid #eeeeee;
+}
+.social .socico{
+	width:48px;
+	padding:10px 0 0;
+	color:#b2b2b2;
+	line-height:32px;
+	text-align:center;
+	float:left;
+	transition:0.5s;
+	border-right:1px solid #eeeeee;
+}
+.social .socico:last-child{border:none}
+
+
+/* Visibility Setting */
+.settnav .list-group-item{
+	border-radius:0;
+	padding:0;
+}
+.settnav .list-group-item a{
+	padding:10px 15px;
+	display:block;
+}
+.settnav .list-group-item a:focus,
+.settnav .list-group-item.selected a{
+	background:url(images/select-lft-brder.png) repeat-y;
+}
+.setthead{padding-bottom:45px}
+.setthead li.mktle{padding:5px;}
+.setthead li{margin-right:5px;}
+.setthead li a{
+	padding:4px;
+	border:1px solid #e6e6e6;
+}
+.setthead li a.active{background-color:#e6e6e6;}
+.compnylst{
+	padding:25px;
+	margin-top:25px;
+	border:1px solid #e6e6e6
+}
+.compnylst li{
+	padding-right:35px;
+	line-height:40px;
+}
+.compnylst li a{
+	padding:7px 0;
+}
+.settbdy .msginvisi,
+.settbdy .msgvisi{
+	padding:11px 20px;
+}
+.settbdy .msginvisi{background-color:#fe3f6b;}
+.settbdy .msgvisi{background-color:#55ff68}
+.resmtop{padding-bottom:5px}
+.resmtop p,
+.resmtop a{
+	padding:8px 0;
+	display:inline-block;
+}
+.downresm .downbtn{
+	text-align:center;
+}
+.viw-resm{
+	min-height:820px;
+	border:1px solid #ddd
+}
+/*-----------------------------*/
+/*-----------  footer  ---------*/
+/*-----------------------------*/
+.footer{
+	padding:0;
+	margin:0;
+	background:url(images/footer-bg.png) no-repeat top center;
+	background-size:cover;
+}
+.footer-wrapper .list-group-item{
+	padding-left:0;
+	color:#fff;
+	background-color:transparent;
+	border:none;
+}
+
+.copyrth{
+	background-color:rgba(0, 0, 0, 0.8);
+	padding:20px 0 10px;
+}
+.copyrth p{color:#fff}
+/*-----------------------------*/
+/*---------  all-hover --------*/
+/*-----------------------------*/
+a:hover{border-radius:0 !important;}
+.footer-wrapper .list-group-item:hover,
+.footer-wrapper .list-group-item:focus{
+	outline:none;
+	color:#fff;
+	background-color:transparent;
+}
+.social .socico:hover{
+	color:#fff;
+	background-color:#f00;
+	transition:0.5s;
+}
+
+
+/*------mobarak----*/
+.title3{
+	padding:0 0 15px;
+	margin:0;
+	font-size:21px;
+	line-height:27px;
+}
+.proftr h4{
+	padding:25px 0 20px;
+	margin:0;
+	color:#0290FF;
+	font-size:21px;
+	line-height:25px;
+	font-family:'Open Sans', sans-serif;
+	
+}
+.fRgtbtn{float:right}
+.cntSide{
+	padding:0;
+	margin:0;
+}
+.cntSide address{
+	padding-bottom:15px;
+	margin:0;
+	font-size:16px;
+	line-height:22px;
+	font-family:'Open Sans', sans-serif;
+}
+.cntSide i{ padding-right:12px;}
+.cntSide span{
+	padding-bottom:15px;
+	display:block;
+	font-size:16px;
+	line-height:22px;
+	font-family:'Open Sans', sans-serif;
+}
+.cntSide a{color:#0290FF}
+.packeg{
+	padding:53px 0 0;
+	margin:0;
+}
+.packeg ul li{
+	line-height:30px;
+}
+
+.proSide{
+	border:1px solid #e6e6e6;
+}
+.proftr{
+	padding:0 0 25px;
+	margin:0;
+}
+.inputIn{
+	padding:0 0 15px;
+	margin:0;
+}
+.proftr .control-label{
+	color:#000;
+	text-align:left;
+}
+.propage{
+	padding:55px 0 0;
+	margin:0;
+	text-align:left;
+}
+.propage .control-label{text-align:left;}
+.propage .fieldset-border {
+  padding: 35px 22px 20px;
+}
+.propage .fieldset-border .legend-border{color:#038fff}
+.proRgt{
+	float:right;
+}
+.bnrDtl span{
+	padding:8px 0;
+	display:block;
+}
+.proRgt .fieldset-border {
+  margin-bottom:30px;
+}
+.amnt{
+	padding:15px 52px;
+	margin-bottom:32px;
+	font-size:16px;
+	line-height:25px;
+	display:inline-block;
+	background-color:#f2f2f2;
+	font-family:'Open Sans', sans-serif;
+}
+.amnt i{
+	padding-left:35px;
+	display:inline-block;
+	font-style:normal;
+}
+
+/* 19-11-15 */
+.checkboxs{padding-left:17px;}
+.dtofbrth{
+	background:url(images/calan-ico.png) no-repeat right center;
+}
